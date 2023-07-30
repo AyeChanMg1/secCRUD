@@ -22,7 +22,7 @@
 
     <form action="{{route('phone.destroy', $post->id)}}" method="POST">
         @csrf
-        @method('destroy')
+        @method('DELETE')
 
     
         <button type="submit">Delete</button>
