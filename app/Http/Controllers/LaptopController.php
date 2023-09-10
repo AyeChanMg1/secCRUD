@@ -76,6 +76,11 @@ class LaptopController extends Controller
      */
     public function update(Request $request, string $id)
     {
+        $validated = $request->validate([
+            'brand' => 'required',
+            'price' => 'required',
+        ]);
+
         $post = Laptop::find($id);
         if($post) {
 

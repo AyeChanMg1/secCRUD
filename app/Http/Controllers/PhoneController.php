@@ -77,6 +77,11 @@ class PhoneController extends Controller
      */
     public function update(Request $request, string $id)
     {
+        $validated = $request->validate([
+            'brand' => 'required',
+            'price' => 'required',
+        ]);
+
         $post = Phone::find($id);
         if($post) {
 

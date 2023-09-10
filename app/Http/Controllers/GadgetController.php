@@ -77,6 +77,11 @@ class GadgetController extends Controller
      */
     public function update(Request $request, string $id)
     {
+        $validated = $request->validate([
+            'gadgetType' => 'required',
+            'price' => 'required',
+        ]);
+
         $post = Gadget::find($id);
         if($post) {
 

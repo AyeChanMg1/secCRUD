@@ -21,11 +21,19 @@
         <div>
             <label for="gadgetType">Gadget Type Name</label>
             <input type="text" name="gadgetType" id="gadgetType" placeHolder="Gadget Name here..." value="{{$post->gadgetType}}">
+            @error('gadgetType')
+                <div>{{ $message }}</div>
+         
+            @enderror
         </div>
     
         <div>
             <label for="price">Price</label>
             <input type="text" name="price" id="price" placeHolder="Price..." value="{{$post->price}}">
+            @error('price')
+                <div>{{ $message }}</div>
+         
+            @enderror
         </div>
         
         <br><br>
