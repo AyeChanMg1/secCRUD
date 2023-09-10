@@ -37,7 +37,7 @@
         <tbody>
             @foreach ($posts as $item)
             <tr>
-                <td>{{$item->id}}</td>
+                <td>{{$loop->iteration}}</td>
                 <td>{{$item->brand}}</td>
                 <td>{{$item->price}}</td>
                 <td>

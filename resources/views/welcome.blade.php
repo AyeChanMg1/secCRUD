@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <link size="16x16" href="https://t3.ftcdn.net/jpg/03/00/99/70/240_F_300997003_zHoe35lLP0NGjxI6mjqREJos9KZAMFLC.jpg"> 
+    <title>Phone & Accessories Shop</title>
 </head>
 <body>
     <h1>Available Items</h1>

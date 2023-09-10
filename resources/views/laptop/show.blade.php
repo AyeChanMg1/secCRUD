@@ -7,7 +7,7 @@
     <title>Document</title>
 </head>
 <body>
-    <a href="{{ url('/gadget') }}">Back</a>
+    <a href="{{ url('/laptop') }}">Back</a>
 
     <h2>{{$name}} : {{$post->id}}</h2>
     <hr>
@@ -20,7 +20,7 @@
 
     <br><br><br>
 
-    <form action="{{route('gadget.destroy', $post->id)}}" method="POST">
+    <form action="{{route('laptop.destroy', $post->id)}}" method="POST">
         @csrf
         @method('DELETE')
 
