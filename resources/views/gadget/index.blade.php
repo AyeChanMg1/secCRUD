@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Gadgets</title>
 </head>
 <body>
     <h1>Available Gadgets</h1>
@@ -21,7 +21,7 @@
         
     @endif
     
-    <a href="{{url('/')}}">Back</a>
+    <a href="{{url('/dashboard')}}">Back</a>
     <hr>
     <a href="{{url('/gadget/create')}}">Add new item</a>
     <br><br>
