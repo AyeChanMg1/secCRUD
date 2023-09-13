@@ -8,7 +8,7 @@
 </head>
 <body>
     <h2>Add new item here:</h2>
-    <a href="{{url('/gadget')}}">Back</a>
+    <a href="{{route('gadget.index')}}">Back</a>
     <br><br>
     <form action="{{ route('gadget.store') }}" method='POST'>
         @csrf
