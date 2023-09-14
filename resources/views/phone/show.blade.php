@@ -4,7 +4,7 @@
           <div class="bg-white overflow-hidden shadow-sm sm:rounded-lg">
                 <div class="p-6 text-gray-900">
                 <a href="{{url('/phone')}}"><i class="bi bi-arrow-bar-left">Back</i></a>
-                <h2>{{$name}} : {{$post->id}}</h2>
+                <h2>{{$name}} : {{$post->brand}}</h2>
                 <hr class="my-3">
                     <div class="py-18">  
                         <div>

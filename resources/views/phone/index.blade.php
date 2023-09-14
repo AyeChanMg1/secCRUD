@@ -1,7 +1,7 @@
 <x-app-layout>
-
-
-    @if (session()->has('success'))
+    <div class="py-12">
+        <div class="max-w-7xl mx-auto sm:px-8">
+            @if (session()->has('success'))
 
         <div>{{session()->get('success')}}</div>
         
@@ -12,14 +12,14 @@
         <div>{{session()->get('warning')}}</div>
         
     @endif
-    
+
     <div class="py-12">
         <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
             <div class="bg-white overflow-hidden shadow-sm sm:rounded-lg">
                 <div class="p-6 text-gray-900">
                     <div class="flex flex-row justify-between">
-                        <a href="{{url('/dashboard')}}"><i class="bi bi-arrow-bar-left"></i> Back</a>
-                        <a href="{{url('/phone/create')}}"><i class="bi bi-plus-circle"></i> Add new item</a>
+                        <a href="{{url('/dashboard')}}"><i class="bi bi-arrow-bar-left">Back</i></a>
+                        <a href="{{url('/phone/create')}}"><i class="bi bi-plus-circle">Add new item</i></a>
                     </div>
 
                     <hr class="my-3">
